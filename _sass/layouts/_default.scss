@@ -13,7 +13,6 @@ body#sg {
 }
 // --------------estilos del buscador -----------------
  
-
   body .search{
     position: relative;
     width: 15px;
@@ -35,22 +34,54 @@ body#sg {
     text-decoration: none;
   }
 
-  /* Small (sm) */
-@media (min-width: 640px)
+  @media (min-width: 640px)
  { 
     body .buscador{
-    position: relative;
+      margin: center;
+    position: absolute;
     margin-left: 400px;
+   
     color: #FFF;
     background-color: transparent;
     }
  }
 
-/* Medium (md) */
-@media (min-width: 700px) {
+@media (min-width: 700px)
+ { 
+    body .buscador{
+      margin: center;
+    position: absolute;
+    margin-top: 50px;
+   
+    color: #FFF;
+    background-color: transparent;
+    }
+ }
+
+
+@media (min-width: 300px) {
   body .buscador{
     position: relative;
-    margin-left: 400px;
+    margin-top: 25px;
+    color: #FFF;
+    background-color: transparent;
+    }
+}
+
+@media (min-width: 200px) {
+  body .buscador{
+    position: relative;
+    margin-top: 30px;
+    color: #FFF;
+    background-color: transparent;
+    }
+}
+
+
+@media (min-width: 100px) {
+  body .buscador{
+    position: relative;
+    margin-top: 30px;
     color: #FFF;
     background-color: transparent;
     }
