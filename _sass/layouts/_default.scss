@@ -29,14 +29,16 @@ body#sg {
   
   body .lupa{
     position: relative;
-    right:5px;
-    top: 12px;
+    right:0px;
+    top: 5px;
     // background: transparent;
     text-align: center;
     border: 0px solid;  
-    height: 35px;
-    width: 35px;
+    height: 20px;
+    width: 20px;
+    background: #FFF;
     background-image: url(../../assets/images/ico_search.svg);
+    text-decoration: none;
   }
 
 body#sg {
