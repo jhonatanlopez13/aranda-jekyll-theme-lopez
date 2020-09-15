@@ -11,15 +11,8 @@ body#sg {
   line-height: $base-line-height;
   background: $white;
 }
-
-  body .buscador{
-    position: relative;
-    margin-left: 400px;
-    background-color: var(--aranda-blue);
-    color: #FFF;
-    background-color: transparent;
-    
-  }
+// --------------estilos del buscador -----------------
+ 
 
   body .search{
     position: relative;
@@ -42,6 +35,22 @@ body#sg {
     text-decoration: none;
   }
 
+  /* Small (sm) */
+@media (min-width: 640px)
+ { 
+    body .buscador{
+    position: relative;
+    margin-left: 400px;
+    margin-top: 50px;
+    color: #FFF;
+    background-color: transparent;
+    }
+ }
+
+/* Medium (md) */
+@media (min-width: 768px) { /* ... */ }
+
+//------------------- fin de estilos del buscador----------------- 
 body#sg {
   position: relative;
   color: $base-font-color;
