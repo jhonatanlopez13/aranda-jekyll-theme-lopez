@@ -41,14 +41,20 @@ body#sg {
     body .buscador{
     position: relative;
     margin-left: 400px;
-    margin-top: 50px;
     color: #FFF;
     background-color: transparent;
     }
  }
 
 /* Medium (md) */
-@media (min-width: 768px) { /* ... */ }
+@media (min-width: 700px) {
+  body .buscador{
+    position: relative;
+    margin-left: 400px;
+    color: #FFF;
+    background-color: transparent;
+    }
+}
 
 //------------------- fin de estilos del buscador----------------- 
 body#sg {
