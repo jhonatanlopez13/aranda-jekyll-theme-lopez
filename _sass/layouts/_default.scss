@@ -25,11 +25,12 @@ body#sg {
     position: relative;
     width: 15px;
     width: 250px;
+    border-radius: 6px;
   }
   
   body .lupa{
     position: relative;
-    right:0px;
+    right:30px;
     top: 5px;
     // background: transparent;
     text-align: center;
