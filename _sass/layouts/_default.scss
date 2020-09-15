@@ -18,6 +18,7 @@ body#sg {
     background-color: var(--aranda-blue);
     color: #FFF;
     background-color: transparent;
+    
   }
 
   body .search{
@@ -28,14 +29,15 @@ body#sg {
   
   body .lupa{
     position: relative;
-    right:22px;
-    top: 5px;
-    background: transparent;
+    right:5px;
+    top: 12px;
+    // background: transparent;
     text-align: center;
-    border: 0px solid;
+    border: 0px solid;  
+    height: 35px;
+    width: 35px;
+    background-image: url(../../assets/images/ico_search.svg);
   }
-
-
 
 body#sg {
   position: relative;
