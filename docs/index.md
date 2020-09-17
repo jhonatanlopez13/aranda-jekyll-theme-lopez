@@ -1,6 +1,5 @@
 ---
-title: Bienvenido
-info: Prueba del Tema de Aranda para Jekyll.
+title: INTRODUCCION
 permalink: /docs/
 sidebar: docs
 redirect_from:
@@ -8,4 +7,9 @@ redirect_from:
   - /docs/uso
 ---
 
-Ejemplo de un manual de los productos.
+
+# 1. Introducción
+ 
+  ![LOGO DE LA EMPRESA](../assets/images/logoempresa.PNG) 
+
+**Aranda**** Database ****Tools**** también **conocidacomo** DBTools ****o**** ADBT ****es** unaherramientaquepermitedescargare instalar los paquetes deversionesde bases de datosnecesariosparaelcorrectofuncionamientodelosproductosArandaversión9.Además,permitemodiﬁcar los archivos de conﬁguración de las consolas y losservicioseninstalacioneson-premise.

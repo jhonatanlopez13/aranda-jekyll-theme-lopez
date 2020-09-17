@@ -57,6 +57,15 @@ body#sg {
     background-color: transparent;
     }
  }
+ @media (min-width: 700px) {
+  body .buscador{
+    position: relative;
+    margin-right: 50px;
+    margin-top: 25px;
+    color: #FFF;
+    background-color: transparent;
+    }
+}
 
 
 @media (min-width: 300px) {

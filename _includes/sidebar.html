@@ -27,12 +27,11 @@
         <ul>
         {% for child in site.pages %}
           {% if child.chapter == item.chapter %}
-            <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a></li>
+          <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a></li>
           {% endif %}
         {% endfor %}
         </ul>
       {% endif %}
-
     </div>
 
     {% endfor %}
