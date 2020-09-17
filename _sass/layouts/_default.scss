@@ -13,88 +13,88 @@ body#sg {
 }
 // --------------estilos del buscador -----------------
  
-  body .search{
-    position: relative;
-    width: 15px;
-    width: 250px;
-    border-radius: 6px;
-  }
+//   body .search{
+//     position: relative;
+//     width: 15px;
+//     width: 250px;
+//     border-radius: 6px;
+//   }
   
-  body .lupa{
-    position: relative;
-    right:30px;
-    top: 5px;
-    // background: transparent;
-    text-align: center;
-    border: 0px solid;  
-    height: 20px;
-    width: 20px;
-    background: #FFF;
-    background-image: url(../../assets/images/ico_search.svg);
-    text-decoration: none;
-  }
+//   body .lupa{
+//     position: relative;
+//     right:30px;
+//     top: 5px;
+//     // background: transparent;
+//     text-align: center;
+//     border: 0px solid;  
+//     height: 20px;
+//     width: 20px;
+//     background: #FFF;
+//     background-image: url(../../assets/images/ico_search.svg);
+//     text-decoration: none;
+//   }
 
-  @media (min-width: 640px)
- { 
-    body .buscador{
-      margin: center;
-    position: absolute;
-    margin-left: 400px;
+//   @media (min-width: 640px)
+//  { 
+//     body .buscador{
+//       margin: center;
+//     position: absolute;
+//     margin-left: 400px;
    
-    color: #FFF;
-    background-color: transparent;
-    }
- }
+//     color: #FFF;
+//     background-color: transparent;
+//     }
+//  }
 
-@media (min-width: 700px)
- { 
-    body .buscador{
-      margin: center;
-    position: absolute;
-    margin-top: 50px;
+// @media (min-width: 700px)
+//  { 
+//     body .buscador{
+//       margin: center;
+//     position: absolute;
+//     margin-top: 50px;
    
-    color: #FFF;
-    background-color: transparent;
-    }
- }
- @media (min-width: 700px) {
-  body .buscador{
-    position: relative;
-    margin-right: 50px;
-    margin-top: 25px;
-    color: #FFF;
-    background-color: transparent;
-    }
-}
+//     color: #FFF;
+//     background-color: transparent;
+//     }
+//  }
+//  @media (min-width: 700px) {
+//   body .buscador{
+//     position: relative;
+//     margin-right: 50px;
+//     margin-top: 25px;
+//     color: #FFF;
+//     background-color: transparent;
+//     }
+// }
 
 
-@media (min-width: 300px) {
-  body .buscador{
-    position: relative;
-    margin-top: 25px;
-    color: #FFF;
-    background-color: transparent;
-    }
-}
+// @media (min-width: 300px) {
+//   body .buscador{
+//     position: relative;
+//     margin-top: 25px;
+//     color: #FFF;
+//     background-color: transparent;
+//     }
+// }
 
-@media (min-width: 200px) {
-  body .buscador{
-    position: relative;
-    margin-top: 30px;
-    color: #FFF;
-    background-color: transparent;
-    }
-}
+// @media (min-width: 200px) {
+//   body .buscador{
+//     position: relative;
+//     margin-top: 30px;
+//     color: #FFF;
+//     background-color: transparent;
+//     }
+// }
 
 
-@media (min-width: 100px) {
-  body .buscador{
-    position: relative;
-    margin-top: 30px;
-    color: #FFF;
-    background-color: transparent;
-    }
-}
+// @media (min-width: 100px) {
+//   body .buscador{
+//     position: relative;
+//     margin-top: 30px;
+//     color: #FFF;
+//     background-color: transparent;
+//     }
+// }
 
 //------------------- fin de estilos del buscador----------------- 
 body#sg {
